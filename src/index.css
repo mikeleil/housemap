@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.carousel-caption {
+  right: 60%;
+  left: 3%;
+  top: 0%;
+  color: black;
+  text-align: left;
+}
+.card {
+  width: 30%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+.price {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+}
+@media (min-width: 721px) and (max-width: 1000px) {
+  .card {
+    width: 60%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+
